@@ -1,0 +1,77 @@
+h2 {
+    text-align: center;
+}
+
+
+.form-control {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  color: #333;
+}
+
+label span {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  outline: none;
+  background-color: #fff;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+.show-password {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #333;
+  user-select: none;
+}
+
+.show-password input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
